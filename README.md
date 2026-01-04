@@ -130,12 +130,7 @@ chmod +x platform-setup-64bit-xxx.sh
 
 ### Step 5: Verification
 
-Once the installation finishes, verify the platform status:
-
-```bash
-/opt/appdynamics/platform/bin/platform-admin.sh show-platform-status
-
-```
+Once the installation finishes, navigate to server-ip-address:9191 and install Controller using the GUI
 
 ---
 
