@@ -42,7 +42,9 @@ Each Component has to be installed seperatly.
       There must be libncurses.so.5 ( symlink if doesnt exist)
       ```
       sudo ln -s /lib/x86_64-linux-gnu/libncurses.so.6.4 /lib/x86_64-linux-gnu/libncurses.so.5
+      sudo ln -s /lib/x86_64-linux-gnu/libtinfo.so.6.4  /lib/x86_64-linux-gnu/libtinfo.so.5
       ```
+   3.netstat: ``` sudo apt-get install net-tools```
 
       
 9. Copy controller installer into ```/opt/appdynamics``` and execute the installer:
