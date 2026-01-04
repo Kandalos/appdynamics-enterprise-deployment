@@ -22,8 +22,30 @@ Each Component has to be installed seperatly.
    ```
    sudo timedatectl set-timezone America/New_York
    ```
+5. install/update software requirements:
+   1.Libaio:
+   
+      Check if it exist: 
+      ```
+      ls /lib/x86_64-linux-gnu/ -a | grep libaio
+      ```
+      There must be libaio.so.1 ( symlink if doesnt exist)
+      ```
+      sudo ln -s /lib/x86_64-linux-gnu/libaio.so.1t64 /lib/x86_64-linux-gnu/libaio.so.1
+      ```
+   2. libncurses:
 
-5. Copy controller installer into ```/opt/appdynamics``` and execute the installer:
+       Check if it exist: 
+      ```
+      ls /lib/x86_64-linux-gnu/ -a | grep libncurses*
+      ```
+      There must be libncurses.so.5 ( symlink if doesnt exist)
+      ```
+      sudo ln -s /lib/x86_64-linux-gnu/libncurses.so.6.4 /lib/x86_64-linux-gnu/libncurses.so.5
+      ```
+
+      
+9. Copy controller installer into ```/opt/appdynamics``` and execute the installer:
    
    Create the directory /opt/appdynamics
    ```
