@@ -14,7 +14,7 @@ An AppDynamics deployment consists of three mission-critical components that wor
 
 ---
 
-## 📂 Documentation Library
+## ❱ Documentation Library
 
 Navigate through the detailed installation and troubleshooting guides below:
 
