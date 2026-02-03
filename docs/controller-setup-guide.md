@@ -1,4 +1,4 @@
-## 1. Controller & Enterprise Console Installation
+## 1. Enterprise Console Installation
 
 ### System Requirements
 
